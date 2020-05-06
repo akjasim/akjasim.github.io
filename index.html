@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Welcome | Mohammed Jasim Anikkadan</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <div>
+          <h2>Mohammed Jasim Anikkadan</h2>
+        </div>
+        <div class="navbar-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div>
+        <h1>Hey, I'm Jasim.</h1>
+      </div>
+      <p>
+        Full-Stack Web Developer | Love Everything about Code | Python Packed |
+        Solve Problems.
+      </p>
+      <a href="">Learn More</a>
+      <a href="">Hire Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="about-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="about-caption">
+          <img src="./assets/images/me.jpeg" alt="" />
+          <h4>
+            Every brand has stories to tell—stories that will not only engage,
+            inform, surprise, delight, and impact their audience, but that will
+            also deliver on measurable business goals. And I am the conduit
+            between brand and consumer. I help clients find the subject and
+            medium that best fits their unique identity, and then I produce
+            high-quality content that meets their objectives.
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <div class="services-header">
+          <h1><u>Services</u></h1>
+        </div>
+        <div class="services-body">
+          <div class="service-card">
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              facilis soluta quod labore doloremque esse rem quam maiores id!
+              Animi officiis praesentium illo consectetur adipisci doloremque
+              quibusdam illum nostrum facere.
+            </p>
+          </div>
+          <div class="service-card">
+            <h2>App Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              facilis soluta quod labore doloremque esse rem quam maiores id!
+              Animi officiis praesentium illo consectetur adipisci doloremque
+              quibusdam illum nostrum facere.
+            </p>
+          </div>
+          <div class="service-card">
+            <h2>UI/UX Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              facilis soluta quod labore doloremque esse rem quam maiores id!
+              Animi officiis praesentium illo consectetur adipisci doloremque
+              quibusdam illum nostrum facere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-header">
+          <h1><u>Contact</u></h1>
+        </div>
+        <div class="contact-caption">
+          <h2>
+            Have a question or want to work together?<br />
+            Enter your details and I'll get back to you in a moment.
+          </h2>
+        </div>
+        <div class="contact-form">
+          <form>
+            <input
+              type="text"
+              name="fullname"
+              class="input"
+              placeholder="Full Name"
+            />
+            <input type="email" class="input" placeholder="Email Address" />
+            <textarea
+              cols="30"
+              class="input"
+              rows="10"
+              placeholder="Comments"
+            ></textarea>
+            <input type="submit" value="Submit" class="input-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>Mohammed Jasim Anikkadan<br />&copy;<span id="year"></span></footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("year").innerHTML = year;
+    </script>
+  </body>
+</html>
